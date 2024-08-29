@@ -126,7 +126,7 @@ useEffect(()=>{
 
   
     // console.log(data)
-    if (data?.predection < 70){
+    if (data?.predection < 86){
       let actions1={
         quantity_required:actions.quantity_required,
         date_range:actions.date_range,
@@ -150,6 +150,12 @@ useEffect(()=>{
     setrecommendations(recdata?.recommendation[0])
     }
     setpred(data)
+    // setacions({
+    //   ...actions,
+    //   date_range: '',
+    //   material_type: '',
+    //   quantity_required: ''
+    // });
     if (predref.current)
     {
       predref.current.scrollIntoView({ behavior: 'smooth' })
