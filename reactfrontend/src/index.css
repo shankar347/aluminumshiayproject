@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bar{
+    width: 35px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3px;
+    height: 4px;  
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+ }
+ 
+.inputs{
+ border:2px solid rgb(193, 193, 193);  
+ outline: none;
+} 
+ .activeinput{
+   border:2px solid rgb(91, 140, 255); 
+ }
+
+ .bgprofile
+{
+    background-image: url('./assets/logo.png');
+    background-repeat: no-repeat;
+    color: rgba(53, 122, 174, 0.855);
+    background-size: contain;
+}
+
+.profileicon{
+   
+   color: rgba(53, 122, 174, 0.855);
+}
+
+ .bar1{
+    width: 45px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3px;
+    height: 4px;  
+    border-radius: 10px;
+    background-color: rgb(255, 25, 25);
+}
+
+ .baractive{
+     background-color: rgb(255, 25, 25);
+ }
+  
+ .herotag{
+    text-shadow: 3px 2px 3px black;
+ }
+ .headertag {
+    text-shadow: 2px 2px 3px rgb(218, 218, 218);
+ }
+ .herodestag{
+    text-shadow: 3px 2px 3px black;  
+ }
+ .navbar{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-sizing: border-box;
+    color:black;
+    /* border-color:black; */
+    box-shadow: 0px 2px 17px 0px;
+    background-color: rgb(145, 143, 143);
+ }
+
+ .profilebox{
+    color: black;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 7px 0px;
+ }
+
+ 
